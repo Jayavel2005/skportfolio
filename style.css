@@ -62,9 +62,10 @@ header{
 }
 /* heropage */
 
-/* .heroPage{
+.heroPage{
     border: var(--border) !important;
-} */
+    margin-top: 120px;
+}
 .welcome{
     color: #fff;
 }
@@ -107,5 +108,33 @@ header{
     --bs-tooltip-color: var(--bs-white);
   }
 
-/* media queries */
 
+
+/* Research Profile*/
+.researchProfileContainer{
+    margin-top: 200px;
+}
+
+.researchHeading{
+    color: var(--primary-color);
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    /* padding: 1px; */
+}
+.researchHeading::after{
+    content: "";
+    position: absolute;
+    
+    background-color: #00c89c;
+    bottom: -5px;
+    right: 0;
+    left: 1%;
+    border-radius: 10px;
+    width: 45%;
+    height: 5px;
+}
+
+.card-footer {
+    border-top: none !important; 
+}
