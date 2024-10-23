@@ -122,13 +122,13 @@ header {
 
 /* Education time line */
 
-.educationTimeLine {
+.experienceTimeLine {
     position: relative;
     max-width: 1200px;
     margin: 80px auto;
 }
 
-.educationTimeLine::after {
+.experienceTimeLine::after {
     content: "";
     position: absolute;
     width: 5px;
@@ -139,7 +139,7 @@ header {
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 6s linear forwards;
+    animation: moveline 7.5s linear forwards;
 }
 
 @keyframes moveline {
@@ -179,6 +179,13 @@ header {
 
 .timeLineContainer:nth-child(4) {
     animation-delay: 4.5s;
+}
+
+.timeLineContainer:nth-child(5){
+    animation-delay: 5s;
+}
+.timeLineContainer:nth-child(6){
+    animation-delay: 6s;
 }
 
 @keyframes movedown {
@@ -323,6 +330,128 @@ header {
 }
 
 
+/* Awards and Recognitions */
+.awardsList{
+    list-style-type:none ;
+    padding: 0px;   
+}
+
+.awardsList > li{
+    position: relative;
+    padding-left: 40px;
+    margin: 10px auto;
+    color: #fff;
+}
+
+.awardsList > li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/skportfolio/src/trophy-star.png);
+}
+
+/* Research Area */
+.researchArea{
+    list-style-type: none ;
+    padding: 0px;
+}
+
+.researchArea > li{
+    padding-left: 40px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.researchArea > li::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(/skportfolio/src/market-analysis.png);
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* selectedJournals */
+
+.selectedJournals{
+    list-style-type: none;
+    padding: 0px;
+}
+.selectedJournals >li{
+    margin: 15px auto;
+    padding-left: 40px;
+    position: relative;
+}
+.selectedJournals >li::before{
+    content: "";
+    position: absolute;
+    background-image: url(/skportfolio/src/diary.png);
+    left: 0;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* patentDetails */
+.patentDetails{
+    list-style-type: none ;
+    padding: 0px;
+}
+.patentDetails >li{
+    position: relative;
+    padding-left: 40px;
+    margin: 15px auto;
+
+}
+
+.patentDetails > li::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(/skportfolio/src/certificate.png);
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* researchProjects */
+.researchProjects{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.researchProjects > li{
+    margin: 15px auto;
+    position: relative;
+    padding-left: 40px;
+}
+
+
+.researchProjects > li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(/skportfolio/src/idea.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 /* preloader */
 .preloader{
@@ -343,11 +472,11 @@ header {
 /* Media queries */
 
 @media screen and (max-width : 600px) {
-    .educationTimeLine {
+    .experienceTimeLine {
         margin: 50px auto;
     }
 
-    .educationTimeLine::after {
+    .experienceTimeLine::after {
         left: 31px;
     }
 
@@ -371,7 +500,7 @@ header {
 
     .left-container .circle-left,
     .right-container .circle-right {
-        left: 3px;
+        left: 15px;
     }
 
     .left-container-arrow {
