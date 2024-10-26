@@ -7,11 +7,16 @@
     --border: #ff9efc 1px solid;
     --bs-white: #fff;
 }
-
 body {
     background-color: #0e0019 !important;
     font-family: "Poppins", serif !important;
 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none !important;
 }
 
 header {
@@ -22,6 +27,7 @@ header {
 /* navbar */
 .navbar {
     box-shadow: 0px 2px 5px #ffffff2a;
+    width: 100% !important;
 }
 
 .logoIcon {
@@ -468,7 +474,26 @@ header {
     top: 61%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
 }
+
+/* Foooter */
+
+footer{
+    margin-top: 300px;
+    background-color: #eaa6ff;
+    padding: 30px;
+    min-height: 40vh;
+}
+footer ul>li>a{
+    color: #000;
+}
+footer ul>li>a:hover{
+    color: #fff;
+}
+
+
+
 /* Media queries */
 
 @media screen and (max-width : 600px) {
@@ -508,5 +533,10 @@ header {
         border-left: 0;
         left: -13px;
         z-index: 1;
+    }
+    .loading-text{
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 }
