@@ -12,9 +12,7 @@ body {
     font-family: "Poppins", serif !important;
 
 }
-::-webkit-scrollbar{
-    display: none;
-}
+
 a{
     text-decoration: none !important;
 }
@@ -42,6 +40,9 @@ header {
 
     background-color: #333;
     color: white !important;
+}
+.active{
+    color: #bb00dc !important;
 }
 
 .navbar-toggler {
@@ -218,7 +219,7 @@ header {
     font-size: 15px !important;
 }
 
-.text-box h4 {
+.text-box h5 {
     font-weight: 700;
 }
 
