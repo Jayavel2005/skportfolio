@@ -45,6 +45,9 @@ body {
 .navbar a {
     text-decoration: none;
 }
+.active{
+    color: #e600ff !important;
+}
 
 .navbar .nav-link:hover {
     color: #fb00ff !important;
