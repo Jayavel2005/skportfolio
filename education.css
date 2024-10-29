@@ -47,9 +47,9 @@ a{
     text-decoration: none;
 }
 
-/* .navbar .nav-link:hover {
+.navbar .nav-link:hover {
     color: #fb00ff !important;
-} */
+}
 
 /* dropdown */
 .dropdown-menu {
