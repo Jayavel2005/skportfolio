@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #d024ff;
+    --secondary-color: #00c89c;
+    --border: #ff9efc 1px solid;
+    --bs-white: #fff;
+}
+a{
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #140024 !important;
+    font-family: "Poppins", serif !important;
+
+}
+
+.researchProjects{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.researchProjects > li{
+    margin: 15px auto;
+    position: relative;
+    padding-left: 40px;
+}
+
+.socialIcons {
+    margin-bottom: 10px;
+}
+
+.socialIcons span {
+    padding: 10px;
+
+
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #d900ff !important;
+    --bs-tooltip-color: var(--bs-white);
+}
+
+.researchProjects > li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(/skportfolio/src/editorial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    margin-top: 300px;
+    background-color: #eaa6ff;
+    padding: 30px;
+    min-height: 40vh;
+}
+footer ul>li>a{
+    color: #000;
+}
+footer ul>li>a:hover{
+    color: #fff;
+}
