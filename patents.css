@@ -74,6 +74,9 @@ a{
 
 
 }
+.accordion{
+    background-color: #c800ff !important;
+}
 
 .patentDetails{
     list-style-type: none ;
