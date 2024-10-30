@@ -90,6 +90,7 @@ header {
 .name {
     color: var(--primary-color);
     text-shadow: 0px 0px px #ff98fc;
+    font-size: 40px;
 }
 
 .socialIcons {
