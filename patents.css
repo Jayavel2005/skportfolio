@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --primary-color: #d024ff;
-    --secondary-color: #00c89c;
-    --border: #ff9efc 1px solid;
-    --bs-white: #fff;
-}
+
 body {
-    background-color: #140024 !important;
+    background-color: aliceblue !important;
     font-family: "Poppins", serif !important;
 
 }
@@ -20,6 +15,7 @@ a{
 .navbar {
     box-shadow: 0px 2px 5px #ffffff2a;
     width: 100% !important;
+    background-color: #006aff !important;
 }
 
 .logoIcon {
@@ -36,7 +32,7 @@ a{
     color: white !important;
 }
 .active{
-    color: #e600ff !important;
+    color: #000000 !important;
 }
 .navbar-toggler {
     outline: none !important;
@@ -47,24 +43,42 @@ a{
 }
 
 .navbar .nav-link:hover {
-    color: #fb00ff !important;
+    color: #000000 !important;
+}
+.researchHeading {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    /* padding: 1px; */
+}
+
+.researchHeading::after {
+    content: "";
+    position: absolute;
+
+    background-color: #00c89c;
+    bottom: -5px;
+    right: 0;
+    left: 1%;
+    border-radius: 10px;
+    width: 45%;
+    height: 5px;
 }
 
 /* dropdown */
 .dropdown-menu {
-    background-color: transparent !important;
-    box-shadow: 1px 1px 5px #c800ff;
+    background-color: #353535 !important;
 }
 
 .dropdown-item>a {
     color: rgb(255, 255, 255) !important;
 }
-
-.dropdown-item:hover {
-    background-color: #e600ff !important;
+.dropdown-item>a:hover{
+    color: #ffffff !important;
 }
-
-
+.dropdown-item{
+    background-color: transparent !important;
+}
 .socialIcons {
     margin-bottom: 10px;
 }
@@ -73,9 +87,6 @@ a{
     padding: 10px;
 
 
-}
-.accordion{
-    background-color: #c800ff !important;
 }
 
 .patentDetails{
@@ -103,7 +114,7 @@ a{
 
 footer{
     margin-top: 300px;
-    background-color: #eaa6ff;
+    background-color: #a6a9ff;
     padding: 30px;
     min-height: 40vh;
 }

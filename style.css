@@ -1,14 +1,9 @@
 /* custom font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --primary-color: #d024ff;
-    --secondary-color: #00c89c;
-    --border: #ff9efc 1px solid;
-    --bs-white: #fff;
-}
+
 body {
-    background-color: #140024 !important;
+    background-color: aliceblue !important;
     font-family: "Poppins", serif !important;
 
 }
@@ -23,16 +18,17 @@ header {
 }
 
 /* navbar */
-.navbar {
-    box-shadow: 0px 2px 5px #ffffff2a;
-    width: 100% !important;
-}
 
 .logoIcon {
     width: 50px;
     height: 50px;
 }
 
+.navbar {
+    box-shadow: 0px 2px 5px #ffffff2a;
+    width: 100% !important;
+    background-color: #006aff !important;
+}
 .nav-link {
     position: relative;
 
@@ -42,7 +38,7 @@ header {
     color: white !important;
 }
 .active{
-    color: #bb00dc !important;
+    color: #00031c !important;
 }
 
 .navbar-toggler {
@@ -54,21 +50,22 @@ header {
 }
 
 .navbar .nav-link:hover {
-    color: #fb00ff !important;
+    color: #000000 !important;
 }
 
 /* dropdown */
 .dropdown-menu {
-    background-color: transparent !important;
-    box-shadow: 1px 1px 5px #c800ff;
+    background-color: #353535 !important;
 }
 
 .dropdown-item>a {
     color: rgb(255, 255, 255) !important;
 }
-
-.dropdown-item:hover {
-    background-color: #e600ff !important;
+.dropdown-item>a:hover{
+    color: #ffffff !important;
+}
+.dropdown-item{
+    background-color: transparent !important;
 }
 
 /* heropage */
@@ -83,13 +80,11 @@ header {
     overflow-x: hidden;
 }
 
-.welcome {
-    color: #fff;
-}
+
 
 .name {
-    color: var(--primary-color);
-    text-shadow: 0px 0px px #ff98fc;
+    color: rgb(255, 0, 149);
+    
     font-size: 40px;
 }
 
@@ -104,31 +99,33 @@ header {
 }
 
 .card {
-    background-color: transparent !important;
-    border: #ff9efc 1px solid !important;
+    
+    background-color: #006aff !important;
+
 }
 
 .resumeBtn {
-    background-color: #bb00dc !important;
-    color: #fff !important;
+    background-color: #006aff !important;
+    color: #ffffff !important;
 }
 
 .contactBtn {
-    border: 1px solid #d900ff !important;
-    color: #fb00ff !important;
-    transition: 0.5s;
+    border: 1px solid #006aff !important;
+    color: #006aff !important;
+    transition: 0.7s !important;
 }
 
 .contactBtn:hover {
-    background-color: #d900ff !important;
-    color: #fff !important;
+    background-color: #006aff !important;
+    color: #ffffff !important;
+    
 }
 
 /* tool tips */
 
 .custom-tooltip {
-    --bs-tooltip-bg: #d900ff !important;
-    --bs-tooltip-color: var(--bs-white);
+    --bs-tooltip-bg: #006aff !important;
+    --bs-tooltip-color: rgb(255, 255, 255) !important;
 }
 
 
@@ -146,12 +143,14 @@ header {
     width: 5px;
     height: 100%;
     border-radius: 10px;
-    background-color: rgb(78, 0, 97);
+    background-color: rgb(0, 0, 0);
     top: 0;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
     animation: moveline 7.5s linear forwards;
+    /* box-shadow: 0px 0px 3px #00ffff; */
+    
 }
 
 @keyframes moveline {
@@ -171,7 +170,7 @@ header {
     width: 50%;
     /* border: 1px solid var(--primary-color) !important; */
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important; */
     animation: movedown 1s linear forwards;
     opacity: 0;
 }
@@ -214,8 +213,9 @@ header {
 
 .text-box {
     padding: 20px 30px;
-    background-color: #f9bdff;
+    /* border: #f200ff 1px solid; */
     position: relative;
+    background-color: #9800b0 !important;
     border-radius: 6px;
     font-size: 15px !important;
 }
@@ -236,8 +236,8 @@ header {
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #f9bdff;
-    right: -13px;
+    border-left: 15px solid #9800b0;
+    right: -14px;
 }
 
 .right-container-arrow {
@@ -248,14 +248,14 @@ header {
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #f9bdff;
-    left: -13px;
+    border-right: 15px solid #9800b0;
+    left: -14px;
 }
 
 .circle-left {
     width: 30px;
     height: 30px;
-    background-color: #ff78f8 !important;
+    background-color: #2600ff !important;
     position: absolute;
     z-index: 10;
     border-radius: 50%;
@@ -269,7 +269,7 @@ header {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #ff00d9;
+    background-color: #00e5ff;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -280,7 +280,7 @@ header {
 .circle-right {
     width: 30px;
     height: 30px;
-    background-color: #ff78f8 !important;
+    background-color: #2b00ff !important;
     position: absolute;
     z-index: 10;
     border-radius: 50%;
@@ -293,7 +293,7 @@ header {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #ff00d9;
+    background-color: #00d5ff;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -317,7 +317,7 @@ header {
 }
 
 .researchHeading {
-    color: var(--primary-color);
+    
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -352,7 +352,7 @@ header {
     position: relative;
     padding-left: 40px;
     margin: 10px auto;
-    color: #fff;
+    color: #000000;
 }
 
 .awardsList > li::before{
@@ -487,7 +487,7 @@ header {
 
 footer{
     margin-top: 300px;
-    background-color: #eaa6ff;
+    background-color: #a6bbff;
     padding: 30px;
     min-height: 40vh;
 }

@@ -1,31 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --primary-color: #d024ff;
-    --secondary-color: #00c89c;
-    --border: #ff9efc 1px solid;
-    --bs-white: #fff;
-}
+
 a{
     text-decoration: none !important;
 }
 
 body {
-    background-color: #140024 !important;
+    background-color: aliceblue !important;
     font-family: "Poppins", serif !important;
 
 }
 
-.navbar {
-    box-shadow: 0px 2px 5px #ffffff2a;
-    width: 100% !important;
-}
+
 
 .logoIcon {
     width: 50px;
     height: 50px;
 }
 
+.navbar {
+    box-shadow: 0px 2px 5px #ffffff2a;
+    width: 100% !important;
+    background-color: #006aff !important;
+}
 .nav-link {
     position: relative;
 
@@ -35,7 +32,7 @@ body {
     color: white !important;
 }
 .active{
-    color: #bb00dc !important;
+    color: #00031c !important;
 }
 
 .navbar-toggler {
@@ -45,26 +42,24 @@ body {
 .navbar a {
     text-decoration: none;
 }
-.active{
-    color: #e600ff !important;
-}
 
 .navbar .nav-link:hover {
-    color: #fb00ff !important;
+    color: #000000 !important;
 }
 
 /* dropdown */
 .dropdown-menu {
-    background-color: transparent !important;
-    box-shadow: 1px 1px 5px #c800ff;
+    background-color: #353535 !important;
 }
 
 .dropdown-item>a {
     color: rgb(255, 255, 255) !important;
 }
-
-.dropdown-item:hover {
-    background-color: #e600ff !important;
+.dropdown-item>a:hover{
+    color: #ffffff !important;
+}
+.dropdown-item{
+    background-color: transparent !important;
 }
 
 .researchProjects{
@@ -77,6 +72,27 @@ body {
     position: relative;
     padding-left: 40px;
 }
+.researchHeading {
+    color: var(--primary-color);
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    /* padding: 1px; */
+}
+
+.researchHeading::after {
+    content: "";
+    position: absolute;
+
+    background-color: #00c89c;
+    bottom: -5px;
+    right: 0;
+    left: 1%;
+    border-radius: 10px;
+    width: 45%;
+    height: 5px;
+}
+
 
 .socialIcons {
     margin-bottom: 10px;
@@ -89,7 +105,7 @@ body {
 }
 
 .custom-tooltip {
-    --bs-tooltip-bg: #d900ff !important;
+    --bs-tooltip-bg: #000000 !important;
     --bs-tooltip-color: var(--bs-white);
 }
 
@@ -107,7 +123,7 @@ body {
 
 footer{
     margin-top: 300px;
-    background-color: #eaa6ff;
+    background-color: #a6a6ff;
     padding: 30px;
     min-height: 40vh;
 }
