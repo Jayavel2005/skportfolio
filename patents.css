@@ -105,7 +105,7 @@ a{
     position: absolute;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/certificate.png);
+    background-image: url(./src/certificate.png);
     top: 0;
     left: 0;
     background-repeat: no-repeat;

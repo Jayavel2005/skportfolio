@@ -364,7 +364,7 @@ header {
     height: 20px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/skportfolio/src/trophy-star.png);
+    background-image: url(./src/trophy-star.png);
 }
 
 /* Research Area */
@@ -384,7 +384,7 @@ header {
     position: absolute;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/market-analysis.png);
+    background-image: url(./src/market-analysis.png);
     top: 0;
     left: 0;
     background-repeat: no-repeat;
@@ -404,7 +404,7 @@ header {
 .selectedJournals >li::before{
     content: "";
     position: absolute;
-    background-image: url(/skportfolio/src/diary.png);
+    background-image: url(./src/diary.png);
     left: 0;
     top: 5px;
     width: 25px;
@@ -430,7 +430,7 @@ header {
     position: absolute;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/certificate.png);
+    background-image: url(./src/certificate.png);
     top: 0;
     left: 0;
     background-repeat: no-repeat;
@@ -458,7 +458,7 @@ header {
     left: 0;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/idea.png);
+    background-image: url(./src/idea.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

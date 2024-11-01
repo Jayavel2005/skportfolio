@@ -73,7 +73,7 @@ body {
     padding-left: 40px;
 }
 .researchHeading {
-    color: var(--primary-color);
+    
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -105,8 +105,8 @@ body {
 }
 
 .custom-tooltip {
-    --bs-tooltip-bg: #000000 !important;
-    --bs-tooltip-color: var(--bs-white);
+    --bs-tooltip-bg: #1e00ff !important;
+    --bs-tooltip-color: #000;
 }
 
 .researchProjects > li::before{
@@ -116,7 +116,7 @@ body {
     left: 0;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/diary.png);
+    background-image: url(./src/diary.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

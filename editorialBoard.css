@@ -115,7 +115,7 @@ body {
     left: 0;
     width: 25px;
     height: 25px;
-    background-image: url(/skportfolio/src/editorial.png);
+    background-image: url(./src/editorial.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
