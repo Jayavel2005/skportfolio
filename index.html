@@ -98,7 +98,7 @@
                         <div class="col p-3 mt-1">
                             <h2 class="fw-bold  name">Dr.S.Kalaiselvan <i
                                     class="fa-solid fa-vial fa-beat-fade fa-xs"></i></h2>
-                            <h6 style="color: #0080ff;">Associate Professor, Department of Chemistry &nbsp;<i
+                            <h6  style="color: #0080ff;"><span class="auto-type"></span> &nbsp;<i
                                     class="fa-solid fa-atom fa-spin-pulse" style="color: #00c89c;"></i></h6>
                         </div>
                     </div>
@@ -711,9 +711,18 @@
             // once : "true"
         });
     </script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         ScrollReveal({reset : "true"}).reveal(".container");
+    </script>
+    <script>
+        let typed = new Typed(".auto-type",{
+            strings : ["Associate Professor, Department of Chemistry"],
+            typeSpeed : 40,
+            backSpeed : 50,
+            loop : true,
+        })
     </script>
 </body>
 
