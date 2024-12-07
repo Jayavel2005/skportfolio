@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
 // Loader
 
 const loader = document.getElementById("loader");
-window.addEventListener("load",()=>{
-    setTimeout(()=>{
+window.addEventListener("load", () => {
+    setTimeout(() => {
         loader.style.display = "none";
-    },1700)
+    }, 1700)
 })
 
 
@@ -34,7 +34,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     // Basic validation (optional, add if needed)
-    
+
 
     // Disable submit button to prevent multiple submissions
     submitButton.disabled = true;
@@ -63,4 +63,5 @@ form.addEventListener("submit", (e) => {
         });
 });
 
+// ScrollReveal({ reset: "true" }).reveal(".container");
 
